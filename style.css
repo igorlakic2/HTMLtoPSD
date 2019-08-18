@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+#home{
+    background-image: url('img/1.jpg');
+    height: 600px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.3);
+    float: right;
+}
+nav ul{
+    float: right;
+}
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+    font-size: 18px;
+    
+}
+li a{
+    color: white;
+    text-decoration: none;
+    user-select: none;
+}
+main{
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.3);
+    color: white;
+    padding: 30px;
+    width: 500px;
+    float: right;
+    top: 20%;
+    right: 5%;
+    box-shadow: -20px 20px 21px -2px rgba(0,0,0,0.71);
+}
+main h1, main p{
+    padding-bottom: 20px;
+}
+main button{
+    padding: 10px 15px 10px 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+}
+#about1{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 40px;
+}
+#about1 h1, #about1 p{
+    padding-bottom: 30px;
+}
+#about2{
+    position: relative;
+    background-image: url('img/2.jpg');
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.bar{
+    width: 300px;
+    background-color: #ddd;
+    margin: 10px 0 15px 0;
+}
+.barDesign, .barDevelopment, .barMarketing{
+    color: white;
+    height: 20px;
+    background-color: #4CAF50;
+    text-align: center;
+}
+.barDesign{
+    width: 75%;
+}
+.barDevelopment{
+    width: 90%;
+}
+.barMarketing{
+    width: 65%;
+}
+.skills{
+    padding: 30px;
+    top: 20%;
+    position: absolute;
+    left: 10%
+}
+.sills h1{
+    padding-bottom: 15px;
+}
+#work1{
+    background-color: #4CAF50;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.workStats{
+    width: 25%;
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+i{
+    font-size: 50px;
+    color: white;
+    padding-top: 20px;
+}
+.workStats p{
+    padding-top: 20px;
+}
+#work2{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    flex: 33.33%;
+    display: flex;
+    flex-direction: row;
+}
+.works{
+    flex: 25%;
+    border: 1px solid #4CAF50;
+    
+    height: 200px;
+}
+#mdl{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0, 0.4);
+    color: white;
+    display: none;
+    z-index: 1;
+    cursor: pointer;
+}
+#work3{
+    text-align: center;
+    padding: 30px 0;
+    user-select: none;
+    background-color: rgb(245, 245, 245);
+    color: grey;
+    border-bottom: 1px solid #4CAF50;
+}
+#work3 h4{
+    cursor: pointer;
+}
+#services{
+    background-color: rgb(245, 245, 245); 
+    text-align: center;
+}
+.service{
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.service .far, .service .fas, .service .fa{
+    color: grey;
+    font-size: 40px;
+    
+}
+.service h4{
+    padding: 15px 0 10px 0;
+}
+#testmonials{
+    min-height: 400px;
+    height: auto;
+    color: white;
+    background-color: #4CAF50;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+}
+.testmonial{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+    display: none;
+}
+#dots{
+    
+    text-align: center;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    user-select: none;
+    cursor: pointer;
+}
+.active{
+    width: 15px;
+    height: 15px;
+}
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    user-select: none;
+}
+.prev{
+    left: 10%;
+}
+.next{
+    right: 10%;
+}
+#contact{
+    background-color: rgb(245, 245, 245);  
+    padding: 30px;
+}
+.contact1{
+    text-align: center;
+}
+.contact1 h1, .contact1 p{
+    padding-bottom: 40px;
+}
+.column input[type="text"]{
+    width: 200px;
+}
+form input[type="text"], textarea{
+    padding: 12px 15px 10px 15px;
+    margin-top: 10px;
+    width: 400px;
+    color: grey;
+    border: none;
+    border-radius: 7px;
+}
+form button{
+    padding: 15px 18px 15px 18px;
+    margin: 20px 0 20px 0;
+    border: none;
+    outline: none;
+    background-color: #4CAF50; 
+    color: white;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+}
+.footer1{
+    flex: 30%;
+    float: left;
+    padding: 40px;
+}
+.footer2{
+    flex: 70%;
+    float: right;
+    padding: 30px;
+}
+.footer2 ul{
+    float: right;
+}
+.footer2 ul li{
+    display: inline-block;
+}
+.rowHidden{
+    display: none;
+}
+.service i{
+    top: 0;
+}
+
+@media (max-width: 780px){
+    ul li{
+        font-size: 15px;
+    }
+    footer{
+        flex-direction: column-reverse;
+    }
+    .footer1{
+        padding: 0 0 40px 0;
+        text-align: center;
+    }
+    .footer2 ul{
+        padding: 0;
+        float: none;
+    }
+    .footer2{
+        padding: 20px 0 20px 0;
+        text-align: center;
+    }
+    nav ul{
+        float: left;
+        padding: 0;
+    }
+    .service{
+        width: 40%;
+    }
+    .column input[type="text"] {
+        width: 100%;
+    }
+
+    form input[type="text"], textarea{
+        width: 100%;
+    }
+}
+@media (max-width: 665px){
+    #home nav ul li{
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+    main{
+        top: 30px;
+        width: 90%;
+    }
+    .footer2{
+        padding: 10px 0 10px 0;
+        text-align: center;
+        float: none;
+    }
+    .footer2 ul li{
+        padding: 10px;
+    }
+    
+}
